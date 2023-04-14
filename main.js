@@ -9,7 +9,7 @@ let API = "http://localhost:8000/movies";
 let cardsContainer = document.querySelector("#cards");
 let currentPage = 1;
 let pageLength = 1;
-let categoryBtns = document.querySelectorAll(".filter_btn");
+let categoryBtns = document.querySelectorAll(".filter_btns button");
 var filterValue="Все";
 
 console.log(form);
@@ -61,8 +61,14 @@ async function createCard(objProf) {
   
 // !Read - отображение данных
 async function readCard(search = "") {
-    let res = filterValue !== "Все"? await fetch(`${API}?q=${search}&_page=${currentPage}&_limit=3&category=${filterValue}`): await fetch(`${API}?q=${search}&_page=${currentPage}&_limit=3`);
-    
+    // let res = filterValue !== "Все"? await fetch(`${API}?category=${filterValue}`): await fetch(`${API}?q=${search}&_page=${currentPage}&_limit=3`);
+    // let res = filterValue == "Все"? await fetch(`${API}?q=${search}&_page=${currentPage}&_limit=3&_category=${filterValue}`): await fetch(`${API}?q=${search}&_page=${currentPage}&_limit=3`);
+    let res=filterValue !== "Все"
+      ? await fetch(
+          `${API}?q=${search}&_page=${currentPage}&_limit=3&category=${filterValue}`
+        )
+      : await fetch(`${API}?q=${search}&_page=${currentPage}&_limit=3`);
+
     let data = await res.json();
     cardsContainer.innerHTML = "";
     data.forEach((elem) => {
@@ -240,10 +246,10 @@ async function countPages() {
 categoryBtns.forEach((elem)=>{
     elem.addEventListener("click",()=>{
   console.log(elem.innerText);
-  filterValue.innerText=elem.innerText;
+  filterValue = elem.innerText;
   readCard();
-})
-  })
+});
+  });
 // // !admin call 
 // let adminBtn = document.querySelector("#adminBtn");
 // let passModal = document.querySelector("#passModal");

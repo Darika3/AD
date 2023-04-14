@@ -103,17 +103,17 @@
         <input placeholder="Description" type="text" id="inpDesc" />
         <select name="select" id="inpCategory">
           <!--Supplement an id here instead of using 'name'-->
-          <option selected>Возраст</option>
-          <option>12+</option>
-          <option>16+</option>
-          <option>18+</option>
+          <option value="value1" selected>Возраст</option>
+          <option value="value2">от 12</option>
+          <option value="value3">от 16</option>
+          <option value="value4">от 18</option>
         </select>
         a<button id="btnAdd">ADD</button>
       </form>
       <div class="filter_btns block">
-        <button class="filter_btn">12+</button>
-        <button class="filter_btn">16+</button>
-        <button class="filter_btn">18+</button>
+        <button class="filter_btn">от 12</button>
+        <button class="filter_btn">от 16</button>
+        <button class="filter_btn">от 18</button>
         <button class="filter_btn">Все</button>
       </div>
       <!-- !START CARDS -->
@@ -196,9 +196,9 @@
         />
         <select id="editInpCategory" name="select" class="editInps">
           <option selected>Возраст</option>
-          <option>12+</option>
-          <option>16+</option>
-          <option>18+</option>
+          <option>от 12</option>
+          <option>от 16</option>
+          <option>от 18</option>
         </select>
         <input
           type="text"

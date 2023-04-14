@@ -5,7 +5,7 @@
       "image": "https://wallpapercave.com/wp/wp10415289.jpg",
       "description": "Spider-Man: No Way Home is a 2021 American superhero film ",
       "trailer": "https://www.youtube.com/embed/JfVOs4VSpmA",
-      "category": "16+",
+      "category": "18+",
       "id": 1
     },
     {
@@ -13,7 +13,7 @@
       "image": "https://wallpapercave.com/wp/wp6726695.jpg",
       "description": "In 1991, the brainwashed super-soldier James Bucky Barnes is dispatched",
       "trailer": "https://www.youtube.com/embed/dKrVegVI0Us",
-      "category": "12+",
+      "category": "от 12",
       "id": 2
     },
     {
@@ -21,7 +21,7 @@
       "image": "https://wallpapercave.com/wp/wp11988251.jpg",
       "description": "T'Challa, king of Wakanda, is dying from an unspecified terminal",
       "trailer": "https://www.youtube.com/embed/_Z3QKkl1WyM",
-      "category": "12+",
+      "category": "от 12",
       "id": 3
     },
     {
@@ -29,7 +29,7 @@
       "image": "https://wallpapercave.com/wp/wp9657305.png",
       "description": "In 1995, super soldier Alexei Shostakov and Black Widow Melina Vostokoff work as Russian undercover",
       "trailer": "https://www.youtube.com/embed/ybji16u608U",
-      "category": "16+",
+      "category": "от 16",
       "id": 4
     },
     {
@@ -37,7 +37,7 @@
       "image": "https://wallpapercave.com/wp/wp3728049.jpg",
       "description": "In 1996, a young Cletus Kasady watches helplessly as his lover, Frances Barrison, ",
       "trailer": "https://www.youtube.com/embed/-FmWuCgJmxo",
-      "category": "16+",
+      "category": "от 16",
       "id": 5
     },
     {
@@ -45,7 +45,7 @@
       "image": "https://wallpapercave.com/wp/wp3405076.jpg",
       "description": "Tony Stark is a genius inventor and billionaire industrialist, who suits up in his ",
       "trailer": "https://www.youtube.com/embed/8ugaeA-nMTc",
-      "category": "16+",
+      "category": "от 12",
       "id": 6
     },
     {
@@ -53,7 +53,7 @@
       "image": "https://wallpapercave.com/wp/wp11927952.jpg",
       "description": "During her days of entrapment in the Quantum Realm, Janet van  ",
       "trailer": "https://www.youtube.com/embed/ZlNFpri-Y40",
-      "category": "18+",
+      "category": "от 18",
       "id": 7
     },
     {
@@ -61,7 +61,7 @@
       "image": "https://wallpapercave.com/wp/wp8007067.jpg",
       "description": "Gorr and his daughter, Love, the last of their race, struggle in a barren ",
       "trailer": "https://www.youtube.com/embed/Go8nTmfrQd8",
-      "category": "18+",
+      "category": "от 18",
       "id": 8
     },
     {
@@ -69,8 +69,24 @@
       "image": "https://wallpapercave.com/wp/wp10239965.jpg",
       "description": "Around a thousand years ago, Xu Wenwu discovers the mystical ten ",
       "trailer": "https://www.youtube.com/embed/8YjFbMbfXaQ",
-      "category": "18+",
+      "category": "от 18",
       "id": 9
+    },
+    {
+      "title": "Darika",
+      "image": "https://wallpapercave.com/wp/wp10239965.jpg",
+      "description": "wertyvgcccccccccccccccccghhhhhhhhhhhh",
+      "trailer": "https://youtu.be/8YjFbMbfXaQ",
+      "category": "от 16",
+      "id": 10
+    },
+    {
+      "title": "Darika",
+      "image": "https://wallpapercave.com/wp/wp10239965.jpg",
+      "description": "wertyvgcccccccccccccccccghhhhhhhhhhhh",
+      "trailer": "https://youtu.be/8YjFbMbfXaQ",
+      "category": "от 12",
+      "id": 11
     }
   ]
 }
